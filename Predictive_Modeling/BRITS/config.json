@@ -1,0 +1,27 @@
+{
+  "dataset_dir": "/Users/bryanbarrios/Desktop/MastersResearch/PredictiveModeling/Data/Dataset_avg",
+  "feat_cols": [
+    "HR",
+    "O2Sat",
+    "Temp",
+    "SBP",
+    "DBP",
+    "Resp",
+    "MAP"
+  ],
+  "out_dir": "/Users/bryanbarrios/Desktop/MastersResearch/PredictiveModeling/BRITS",
+  "seed": 123,
+  "T": 48,
+  "keep_last": true,
+  "train_frac": 0.8,
+  "normalize": true,
+  "hidden_size": 32,
+  "consistency_weight": 0.1,
+  "batch_size": 32,
+  "epochs": 50,
+  "lr": 0.0025843981749201933,
+  "weight_decay": 1e-05,
+  "holdout_frac": 0.1,
+  "num_workers": 0,
+  "save_every": 1
+}
